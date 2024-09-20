@@ -12,7 +12,7 @@ def market():
 def add_stock(stock):       
     print("ADD FRUIT STOCK")
     fn = input("Enter fruit name: ")
-    qut = int(input("Enter quantity (in kg): "))
+    qut = int(input("Enter quantity (in kg/per fruit): "))
     price = int(input("Enter price: "))
     stock[fn] = {'qty': qut, 'price': price}
     logging.info(f"Fruit added: {fn}, Quantity: {qut}, Price: {price}")
